@@ -1,4 +1,4 @@
-package org.yaourtcorp.testsangularjs.web;
+package org.yaourtcorp.testspringboot.web;
 
 import static org.hamcrest.Matchers.hasSize;
 import static org.hamcrest.Matchers.is;
@@ -25,8 +25,8 @@ import org.springframework.test.context.web.WebAppConfiguration;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import org.springframework.web.context.WebApplicationContext;
-import org.yaourtcorp.testsangularjs.bo.Add;
-import org.yaourtcorp.testsangularjs.service.AddService;
+import org.yaourtcorp.testspringboot.bo.Add;
+import org.yaourtcorp.testspringboot.service.AddService;
 
 import com.google.common.base.Optional;
 import com.google.common.collect.ImmutableList;

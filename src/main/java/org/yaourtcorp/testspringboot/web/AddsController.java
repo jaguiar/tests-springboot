@@ -1,7 +1,7 @@
 /**
  * 
  */
-package org.yaourtcorp.testsangularjs.web;
+package org.yaourtcorp.testspringboot.web;
 
 import static org.springframework.web.bind.annotation.RequestMethod.DELETE;
 import static org.springframework.web.bind.annotation.RequestMethod.GET;
@@ -19,8 +19,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
-import org.yaourtcorp.testsangularjs.bo.Add;
-import org.yaourtcorp.testsangularjs.service.AddService;
+import org.yaourtcorp.testspringboot.bo.Add;
+import org.yaourtcorp.testspringboot.service.AddService;
 
 import com.google.common.base.Optional;
 import com.google.common.collect.Lists;

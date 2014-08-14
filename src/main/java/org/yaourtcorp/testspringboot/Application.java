@@ -1,7 +1,7 @@
 /**
  * 
  */
-package org.yaourtcorp.testsangularjs;
+package org.yaourtcorp.testspringboot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;

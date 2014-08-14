@@ -1,7 +1,7 @@
 /**
  * 
  */
-package org.yaourtcorp.testsangularjs.bo;
+package org.yaourtcorp.testspringboot.bo;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

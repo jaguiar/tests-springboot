@@ -1,14 +1,14 @@
 /**
  * 
  */
-package org.yaourtcorp.testsangularjs.service;
+package org.yaourtcorp.testspringboot.service;
 
 import static com.google.common.base.Optional.fromNullable;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.yaourtcorp.testsangularjs.bo.Add;
-import org.yaourtcorp.testsangularjs.repository.AddRepository;
+import org.yaourtcorp.testspringboot.bo.Add;
+import org.yaourtcorp.testspringboot.repository.AddRepository;
 
 import com.google.common.base.Optional;
 

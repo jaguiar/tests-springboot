@@ -1,11 +1,11 @@
-package org.yaourtcorp.testsangularjs.web;
+package org.yaourtcorp.testspringboot.web;
 
 import org.mockito.Mockito;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
-import org.yaourtcorp.testsangularjs.service.AddService;
+import org.yaourtcorp.testspringboot.service.AddService;
 
 @Configuration
 @EnableAutoConfiguration

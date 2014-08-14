@@ -1,9 +1,9 @@
 /**
  * 
  */
-package org.yaourtcorp.testsangularjs.service;
+package org.yaourtcorp.testspringboot.service;
 
-import org.yaourtcorp.testsangularjs.bo.Add;
+import org.yaourtcorp.testspringboot.bo.Add;
 
 import com.google.common.base.Optional;
 

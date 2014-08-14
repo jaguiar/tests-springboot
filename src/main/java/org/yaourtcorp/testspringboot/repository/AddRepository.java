@@ -1,11 +1,11 @@
 /**
  * 
  */
-package org.yaourtcorp.testsangularjs.repository;
+package org.yaourtcorp.testspringboot.repository;
 
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
-import org.yaourtcorp.testsangularjs.bo.Add;
+import org.yaourtcorp.testspringboot.bo.Add;
 
 /**
  * @author jaguiar
