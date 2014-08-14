@@ -5,6 +5,7 @@ package org.yaourtcorp.testsangularjs.bo;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
 /**
@@ -14,7 +15,18 @@ import javax.persistence.Id;
 @Entity
 public class Add {
 
-	@Id	
+	public Add() {
+	}
+
+	public Add(int id, String name, String content) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.content = content;
+	}
+
+	@Id
+	@GeneratedValue
 	private int id;
 	@Column
 	private String name;
@@ -25,9 +37,7 @@ public class Add {
 	public int getId() {
 		return id;
 	}
-	public void setId(int id) {
-		this.id = id;
-	}
+	
 	public String getName() {
 		return name;
 	}
