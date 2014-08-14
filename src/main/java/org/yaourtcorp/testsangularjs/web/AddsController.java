@@ -36,18 +36,18 @@ public class AddsController extends AbstractController {
 	@Autowired
 	private AddService addService;
 	
-	@RequestMapping(method=GET, produces="application/json" )
+	@RequestMapping(method=GET, produces="application/json;charset=UTF-8" )
 	public List<Add> listAdds(){
 		return Lists.newArrayList(addService.listAdds());
 	}
 
-	@RequestMapping(value="/{id}", method=GET, produces="application/json" )
+	@RequestMapping(value="/{id}", method=GET, produces="application/json;charset=UTF-8" )
 	public ResponseEntity<Add> findAdd(@PathVariable int id){
 		Optional<Add> add = addService.find(id);
 		return getResponseFromOptional(add);
 	}
 
-	@RequestMapping(value="/", method=GET, produces="application/json" )
+	@RequestMapping(value="/", method=GET, produces="application/json;charset=UTF-8" )
 	public ResponseEntity<Add> findAddByName(@RequestParam String name){
 		Optional<Add> add = addService.find(name);
 		return getResponseFromOptional(add);
@@ -59,13 +59,13 @@ public class AddsController extends AbstractController {
 		addService.createAdd(add.getName(), add.getContent());
 	}
 
-	@RequestMapping(value="/{id}", method=DELETE, consumes="application/json" )
+	@RequestMapping(value="/{id}", method=DELETE, consumes="application/json;charset=UTF-8" )
 	@ResponseStatus(HttpStatus.NO_CONTENT)
 	public void deleteAdd(@PathVariable int id){
 		addService.deleteAdd(id);
 	}
 
-	@RequestMapping(value="/{id}", method=PUT, consumes="application/json" )
+	@RequestMapping(value="/{id}", method=PUT, consumes="application/json;charset=UTF-8" )
 	public void updateAdd(@PathVariable int id,@RequestBody Add add){
 		addService.updateAdd(id, add.getContent());
 	}
